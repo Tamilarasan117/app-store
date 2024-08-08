@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.tab-list {
+  list-style-type: none;
+}
+.tab-button {
+  background-color: transparent;
+  color:  #7b8794;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+  cursor: pointer;
+  outline: none;
+  width: 100px;
+}
+.unactive-tab-button {
+  border: none;
+  border-bottom: 2px solid #dfe2e5;
+}
+.active-tab-button {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+}
